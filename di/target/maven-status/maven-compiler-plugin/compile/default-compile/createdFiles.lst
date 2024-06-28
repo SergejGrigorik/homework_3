@@ -1,0 +1,3 @@
+org\springframework\Application.class
+org\springframework\beans\scanner\PackagesReaderWithReflection.class
+org\springframework\beans\scanner\ApplicationPropertiesReader.class
