@@ -75,7 +75,6 @@ public class ObjectFactory {
 
             for (Class<?> parameter : constructor.getParameterTypes()) {
                 if (parameter.isPrimitive()) {
-//                Если это будет boolean значение я просто  не знаю что мнне делать
                     objectList.add(0);
 
                 } else {

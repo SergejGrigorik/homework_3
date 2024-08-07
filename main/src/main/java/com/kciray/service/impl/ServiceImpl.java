@@ -7,17 +7,12 @@ import org.springframework.postprocessor.autowired.annotation.Autowired;
 
 @Component
 public class ServiceImpl implements ServiceInterface {
-
-
     private DaoInterface daoInterface;
-    private String string;
-
 
     @Autowired
     private void setDaoInterface(DaoInterface daoInterface) {
         this.daoInterface = daoInterface;
     }
-
 
     @Override
     public void execute() {

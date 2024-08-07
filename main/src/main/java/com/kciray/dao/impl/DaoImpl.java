@@ -9,9 +9,9 @@ import org.springframework.postprocessor.autowired.annotation.Autowired;
 @Component
 
 public class DaoImpl implements DaoInterface {
+
     @Autowired
     private ParametersHolder parametersHolder;
-
 
     @Override
     public void execute() {
